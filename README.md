@@ -8,19 +8,17 @@ Introduction to the intellectual enterprises of computer science and the art of 
 
 ## Problem Sets and Their Implementation Language
 
-| Problem Set Number | Implementation |
-|--|--|
-| PSET 1 | C |
-| PSET 2 | C |
-| PSET 3 | C |
-| PSET 4 | C |
-| PSET 5 | C |
-| PSET 6 | Python |
-| PSET 7 | SQL |
-| PSET 8 | HTML, CSS, JavaScript |
-| PSET 9 | Python, SQL, HTML, CSS, JavaScript |
-
-
+| Problem Set Number | Implementation | Subject
+|--|--|--
+| PSET 1 | C | Basics
+| PSET 2 | C | Arrays
+| PSET 3 | C | Algorithms
+| PSET 4 | C | Memory
+| PSET 5 | C | Data Structures
+| PSET 6 | Python | Python
+| PSET 7 | SQL | Query and Management
+| PSET 8 | HTML, CSS, JavaScript | Web Developement
+| PSET 9 | Python, SQL, HTML, CSS, JavaScript | Web Developement
 
 
 ### Disclaimer
