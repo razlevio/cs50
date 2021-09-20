@@ -1,0 +1,22 @@
+:) helpers.c exists
+:) filter compiles
+:) grayscale correctly filters single pixel with whole number average
+:) grayscale correctly filters single pixel without whole number average
+:) grayscale leaves alone pixels that are already gray
+:) grayscale correctly filters simple 3x3 image
+:) grayscale correctly filters more complex 3x3 image
+:) grayscale correctly filters 4x4 image
+:) sepia correctly filters single pixel
+:) sepia correctly filters simple 3x3 image
+:) sepia correctly filters more complex 3x3 image
+:) sepia correctly filters 4x4 image
+:) reflect correctly filters 1x2 image
+:) reflect correctly filters 1x3 image
+:) reflect correctly filters image that is its own mirror image
+:) reflect correctly filters 3x3 image
+:) reflect correctly filters 4x4 image
+:) blur correctly filters middle pixel
+:) blur correctly filters pixel on edge
+:) blur correctly filters pixel in corner
+:) blur correctly filters 3x3 image
+:) blur correctly filters 4x4 image
