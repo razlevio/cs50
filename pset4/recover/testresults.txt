@@ -1,0 +1,6 @@
+:) recover.c exists.
+:) recover.c compiles.
+:) handles lack of forensic image
+:) recovers 000.jpg correctly
+:) recovers middle images correctly
+:) recovers 049.jpg correctly
