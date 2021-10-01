@@ -2,14 +2,14 @@
 ------------------------------------------------------------
 
 -- Checking the crime scene report from the day of the CS50 duck theft
---SELECT description FROM crime_scene_reports
---  WHERE year = 2020 AND month = 07 AND day = 28 AND street LIKE 'Chamberlin%'
+SELECT description FROM crime_scene_reports
+   WHERE year = 2020 AND month = 07 AND day = 28 AND street LIKE 'Chamberlin%'
 -- The theft hapened in Chamberlin Street Courthouse at 10:15AM, there was three witnesses that were interviewd
 
 
 -- Checcking the transcripts of the interviews to see clues
--- SELECT name, transcript FROM interviews
---  WHERE year = 2020 AND month = 07 AND day = 28;
+ SELECT name, transcript FROM interviews
+   WHERE year = 2020 AND month = 07 AND day = 28;
 
 /*
    Clue 1: Theif get into a car in courthouse parking lot in somewhere withing 10 minutes from the theft
@@ -29,12 +29,12 @@
 
 -- Clue 1 Checking, investigating the courthouse security logs checking the license plates of vehciles that exit the parking lot
 SELECT license_plate FROM courthouse_security_logs
-WHERE activity = 'exit' AND year = 2020 AND month = 07 AND day = 28 AND hour = 10 AND minute BETWEEN 15 AND 25;
+   WHERE activity = 'exit' AND year = 2020 AND month = 07 AND day = 28 AND hour = 10 AND minute BETWEEN 15 AND 25;
 
 -- Possible licences plates = 5P2BI95 94KL13X 6P58WS2 4328GD8 G412CB7 L93JTIZ 322W7JE 0NTHK55
 -- Checking id, name, phone num, passport number and license plate of people with licneses plates thast exit the parking lot within the time frame
  SELECT id, name, phone_number, passport_number, license_plate FROM people
-  WHERE license_plate IN ('5P2BI95', '94KL13X', '6P58WS2', '4328GD8', 'G412CB7', 'L93JTIZ', '322W7JE', '0NTHK55');
+   WHERE license_plate IN ('5P2BI95', '94KL13X', '6P58WS2', '4328GD8', 'G412CB7', 'L93JTIZ', '322W7JE', '0NTHK55');
 /*
         id | name      | phone_number   | passport_number | license_plate
     221103 | Patrick   | (725) 555-4692 | 2963008352      | 5P2BI95
@@ -67,7 +67,7 @@ SELECT DISTINCT p.id, p.name, p.phone_number, p.passport_number, p.license_plate
 
 -- Clue 2 Checking, Investigating phone calls between 10:15AM and 10:25AM DURATION less than 1 min
 SELECT caller, receiver FROM phone_calls
-WHERE year = 2020 AND month = 07 AND day = 28 AND duration < 60;
+   WHERE year = 2020 AND month = 07 AND day = 28 AND duration < 60;
 /* Possible phone numbers               caller | receiver
                                 (130) 555-0289 | (996) 555-8899
                                 (499) 555-9472 | (892) 555-8872
@@ -81,7 +81,7 @@ WHERE year = 2020 AND month = 07 AND day = 28 AND duration < 60;
 
 -- Clue 3 Checking, looking for account nums withdrawls before 10:15AM from Fifer Street
 SELECT account_number FROM atm_transactions
-WHERE transaction_type LIKE '_ithdraw%' AND year = 2020 AND month = 07 AND day = 28 AND atm_location LIKE 'Fifer%'
+   WHERE transaction_type LIKE '_ithdraw%' AND year = 2020 AND month = 07 AND day = 28 AND atm_location LIKE 'Fifer%'
 -- Possible Account Numbers: 28500762 28296815 76054385 49610011 16153065 25506511 81061156 26013199
 
 -- Checking information of people with the bank accounts I found above
@@ -114,7 +114,7 @@ SELECT f.hour, f.minute, a.city, a.full_name, f.id AS flight_ID, f.destination_a
     ORDER BY f.hour LIMIT 1;
 -- Checking the desnenation city based on the flight
 SELECT full_name, city FROM airports
-WHERE id = 4;
+   WHERE id = 4;
 -- The first flight ID 36 from Fiftyville to London, Heatthrow Airport
 
 
