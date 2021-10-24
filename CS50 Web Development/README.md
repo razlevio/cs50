@@ -4,14 +4,14 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/web/20
 
 ## Table of Contents
 
-- [Project 0](/project0)
-  - [basics](/project0/basic)
-- [Project 1](/project1)
-- [Project 2](/project2)
-- [Project 3](/project3)
-- [Project 4](/project4)
-- [Project 5](/project5)
-- [Final Project](/final)
+- [Project 0](project0)
+  - [basics](project0/basic)
+- [Project 1](project1)
+- [Project 2](project2)
+- [Project 3](project3)
+- [Project 4](project4)
+- [Project 5](project5)
+- [Final Project](final)
 
 ## Projects CS50 - Web Development
 
