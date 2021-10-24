@@ -5,7 +5,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/x/2021
 
 ## Table of Contents
 
-- [Problem Set 1: C](/pset1)
+- [Problem Set 1: C](CS50/pset1)
   - [cash](/pset1/cash)
   - [credit](/pset1/credit)
   - [mario: Regular & Advanced](/pset1/mario)
