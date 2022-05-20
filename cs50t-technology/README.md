@@ -14,7 +14,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/techno
 - [Project 5](project5)
 - [Project 6](project5)
 
-## Projects CS50ai - Artificial Intelligence
+## Projects CS50t - Understanding Technology
 
 | Project Number | Implementation | Subject |
 | -------------- | -------------- | ------- |
