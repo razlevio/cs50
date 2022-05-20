@@ -19,13 +19,11 @@ The courses problem sets and projects inspired by the arts, humanities, social s
 <br/><br/>
 
 ## Disclaimer
-
 - If you are CS50 student you are encourged not to look at solutions to the PSETS / Projects until you completed those by yourselve. The essence of all work that you submit to this course must be your own. Collaboration on problem sets and palagrism is not permitted.
 - Read the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/). While my solutions may assist you in completing the course with minimal effort, you should first try to come up with a working solution before consulting any of my suggestions. The only way to get final mastery, in my opinion, is to devote your time and energy to solving the problem sets yourself.
 <br/><br/>
 
 ## Repository Structure
-
 There is a folder for each course from the CS50 course suite.
 Within every course folder, there are subfolders for the actual problem sets or projects, and since every problem set or project may be further divided into several different programming challenges, within every problem set or project folder will be a readme file that explains the challenge itself and the further structure of the folder.<br>Overall structure tree visualization of the repository:
 
@@ -55,17 +53,3 @@ Within every course folder, there are subfolders for the actual problem sets or 
 │   │   | 	├── solutionFile
 │   └── ...
 ```
-
-## Projects CS50 -  Web Development
-
-| Project Number | Implementation | Subject
-|--|--|--
-| Project 0 | HTML, CSS, Python and Git | <-
-| Project 1 | HTML, CSS, Python, Django and Git | <-
-| Project 2 | HTML, CSS, Python, Django, SQL and Git | <-
-| Project 3 | HTML, CSS, JavaScript, SQL and Git | Models and Migrations
-| Project 4 | WIP | User Interfaces
-| Project 5 | WIP | Testing, CI/CD
-| Final Project | HTML, CSS, JavaScript | Scalability and Security
-
-<br/>
