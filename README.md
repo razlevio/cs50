@@ -8,7 +8,7 @@ This repository created for hosting my projects and problem sets solutions of Ha
 - [cs50w](https://cs50.harvard.edu/web/2020/) - Web development with javascript and python
 - [cs50ai](https://cs50.harvard.edu/ai/2020/) - Artificial intelligence with python
 - [cs50m](https://cs50.harvard.edu/mobile/2018/) - Mobile app development with react native
-- [cs50b](https://cs50.harvard.edu/business/2017/) - Business context for computer sceince
+- [cs50b](https://cs50.harvard.edu/business/2017/) - Business context for computer science
 <br/><br/>
 
 ## Course Description
