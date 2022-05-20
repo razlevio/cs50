@@ -34,7 +34,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/x/2022
   - [homepage](pset8-html-css-js/homepage)
 - [Problem Set 9: Flask](pset9-flask)
   - [finance](pset9-flask/finance)
-- [final-project Project](final-project)
+- [Final-Project](final-project)
 
 <br>
 
@@ -51,7 +51,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/x/2022
 | PSET 7             | SQL                                | Query and Management |
 | PSET 8             | HTML, CSS, JavaScript              | Web Developement     |
 | PSET 9             | Python, SQL, HTML, CSS, JavaScript | Web Developement     |
-| final-project Project      | WIP                                | WIP                  |
+| Final-Project      | WIP                                | WIP                  |
 
 <br>
 
