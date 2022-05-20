@@ -4,26 +4,30 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/python
 <br/><br/>
 
 ## Table of Contents
-- [Project 0](project0)
-  - [basics](project0/basic)
-- [Project 1](project1)
-- [Project 2](project2)
-- [Project 3](project3)
-- [Project 4](project4)
-- [Project 5](project5)
-- [Project 6](project5)
+- [Problem Set 0: Functions](pset0-functions)
+  - [einstein](pset0-functions/einstein)
+  - [indoor-voice](pset0-functions/indoor-voice)
+  - [making-faces](pset0-functions/making-faces)
+  - [playback-speed](pset0-functions/playback-speed)
+  - [tip-calculator](pset0-functions/tip-calculator)
+- [Problem Set 1: Conditionals](pset1-conditionals)
+  - [deep-thought](pset1-conditionals/deep-thought)
+  - [file-extensions](pset1-conditionals/file-extensions)
+  - [home-federal-savings-bank](pset1-conditionals/home-federal-savings-bank)
+  - [math-intrepreter](pset1-conditionals/math-intrepreter)
+  - [meal-time](pset1-conditionals/meal-time)
 
 
-## Projects CS50ai - Artificial Intelligence
+## Problem Sets CS50p - Programming with Python
 | Project Number | Implementation                         | Subject                  |
 | -------------- | -------------------------------------- | ------------------------ |
-| Project 0      | WIP                                    | WIP                      |
-| Project 1      | WIP                                    | WIP                      |
-| Project 2      | WIP                                    | WIP                      |
-| Project 3      | WIP                                    | WIP                      |
-| Project 4      | WIP                                    | WIP                      |
-| Project 5      | WIP                                    | WIP                      |
-| Project 6      | WIP                                    | WIP                      |
+| PSET 0         | Python                                 | Functions                |
+| PSET 1         | Python                                 | Conditionals             |
+| Project 2      | Python                                 | WIP                      |
+| Project 3      | Python                                 | WIP                      |
+| Project 4      | Python                                 | WIP                      |
+| Project 5      | Python                                 | WIP                      |
+| Project 6      | Python                                 | WIP                      |
 
 ## Disclaimer
 - If you are CS50 student you are encourged not to look at solutions to the PSETS / Projects until you completed those by yourselve. the essence of all work that you submit to this course must be your own. Collaboration on problem sets is not permitted.0
