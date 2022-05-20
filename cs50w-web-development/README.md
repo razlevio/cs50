@@ -13,7 +13,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/web/20
 - [Project 5](project5)
 - [Final Project](final)
 
-## Projects CS50 - Web Development
+## Projects CS50w - Web Development
 | Project Number | Implementation                         | Subject                  |
 | -------------- | -------------------------------------- | ------------------------ |
 | Project 0      | HTML, CSS, Python and Git              | <-                       |
