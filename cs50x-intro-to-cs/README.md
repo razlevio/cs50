@@ -1,6 +1,6 @@
-<h1 align="center"> CS50 </h1>
+<h1 align="center"> CS50x - Introduction to computer science </h1>
 
-This folder holds my Harvard University <a href="https://cs50.harvard.edu/x/2021/">CS50</a> problem sets solutions.
+This folder holds my Harvard University <a href="https://cs50.harvard.edu/x/2022/">CS50</a> problem sets and projects solutions.
 <br/><br/>
 
 ## Table of Contents
