@@ -14,7 +14,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/mobile
 - [Project 6](project5)
 
 
-## Projects CS50ai - Artificial Intelligence
+## Projects CS50m - Mobile Applications Development
 | Project Number | Implementation                         | Subject                  |
 | -------------- | -------------------------------------- | ------------------------ |
 | Project 0      | WIP                                    | WIP                      |
