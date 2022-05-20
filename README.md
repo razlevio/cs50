@@ -56,23 +56,6 @@ Within every course folder, there are subfolders for the actual problem sets or 
 │   └── ...
 ```
 
-
-## Problem Sets CS50
-
-| Problem Set Number | Implementation | Subject
-|--|--|--
-| PSET 1 | C | Basics
-| PSET 2 | C | Arrays
-| PSET 3 | C | Algorithms
-| PSET 4 | C | Memory
-| PSET 5 | C | Data Structures
-| PSET 6 | Python | Python
-| PSET 7 | SQL | Query and Management
-| PSET 8 | HTML, CSS, JavaScript | Web Developement
-| PSET 9 | Python, SQL, HTML, CSS, JavaScript | Web Developement
-
-<br/>
-
 ## Projects CS50 -  Web Development
 
 | Project Number | Implementation | Subject
