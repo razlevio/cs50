@@ -1,10 +1,60 @@
 <h1 align="center"> CS50 </h1>  
 
-This repository created for hosting my Harvard University <a href="https://cs50.harvard.edu/x/2021/">CS50</a> and <a href="https://cs50.harvard.edu/web/2020/"> Web Development </a> problem sets solutions and projects source codes.<br/><br/>
+This repository created for hosting my projects and problem sets solutions of Harvard University CS50 suite of courses.
+<br>  Courses that were taken:
+- [cs50t](https://cs50.harvard.edu/technology/2017/) - Understanding technology
+- [cs50x](https://cs50.harvard.edu/x/2022/) - Introduction to computer science
+- [cs50p](https://cs50.harvard.edu/python/2022/) - Programming with python
+- [cs50w](https://cs50.harvard.edu/web/2020/) - Web development with javascript and python
+- [cs50ai](https://cs50.harvard.edu/ai/2020/) - Artificial intelligence with python
+- [cs50m](https://cs50.harvard.edu/mobile/2018/) - Mobile app development with react native
+- [cs50b](https://cs50.harvard.edu/business/2017/) - Business context for computer sceince
+<br/><br/>
 
 ## Course Description
-The intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development.
-Languages include `C`, `Python`, `HTML`, `CSS`, `JavaScript`, `SQL` and `Django`. Problem sets inspired by the arts, humanities, social sciences, and sciences. <a href="https://cs50.harvard.edu/x/2021/">CS50</a> & <a href= "https://cs50.harvard.edu/web/2020/"> CS50 - Web Developement </a> <br/><br/>
+The intellectual enterprises of computer science and the art of programming. Those courses teaches students how to think algorithmically and solve problems efficiently using programming techniques and advanced technologies. Topics include computer science abstractions, algorithms, data structures, software engineering, web development, artificial intelligence, mobile applications development, scalability of applications, resource management, security, frameworks and libraries.
+Technologies that been covered: <br>
+`C`, `Python`, `HTML`, `CSS`, `JavaScript`, `SQL`, `React`, `Django`, `Flask`, `SASS`, `Bootstrap` <br>
+The courses problem sets and projects inspired by the arts, humanities, social sciences, and sciences.
+<br/><br/>
+
+## Disclaimer
+
+- If you are CS50 student you are encourged not to look at solutions to the PSETS / Projects until you completed those by yourselve. The essence of all work that you submit to this course must be your own. Collaboration on problem sets and palagrism is not permitted.
+- Read the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/). While my solutions may assist you in completing the course with minimal effort, you should first try to come up with a working solution before consulting any of my suggestions. The only way to get final mastery, in my opinion, is to devote your time and energy to solving the problem sets yourself.
+<br/><br/>
+
+## Repository Structure
+
+There is a folder for each course from the CS50 course suite.
+Within every course folder, there are subfolders for the actual problem sets or projects, and since every problem set or project may be further divided into several different programming challenges, within every problem set or project folder will be a readme file that explains the challenge itself and the further structure of the folder.<br>Overall structure tree visualization of the repository:
+
+```ascii
+├── cs50x-introduction-to-cs/
+│   ├── pset1/
+│   │   ├── programmingChallenge1/
+│   │   | 	├── README
+│   │   | 	├── solutionFile
+│   │   ├── programmingChallenge2/
+│   │   | 	├── README
+│   │   | 	├── solutionFile
+│   └── pset2/'
+│   │   ├── programmingChallenge1/
+│   │   | 	├── README
+│   │   | 	├── solutionFile
+│   └── ...
+
+├── cs50w-web-development/
+│   ├── project1/
+│   │   ├── programmingChallenge1/
+│   │   | 	├── README
+│   │   | 	├── solutionFile
+│   └── project2/'
+│   │   ├── programmingChallenge1/
+│   │   | 	├── README
+│   │   | 	├── solutionFile
+│   └── ...
+```
 
 
 ## Problem Sets CS50
@@ -36,40 +86,3 @@ Languages include `C`, `Python`, `HTML`, `CSS`, `JavaScript`, `SQL` and `Django`
 | Final Project | HTML, CSS, JavaScript | Scalability and Security
 
 <br/>
-
-## Disclaimer
-
-- If you are CS50 student you are encourged not to look at solutions to the PSETS / Projects until you completed those by yourselve. the essence of all work that you submit to this course must be your own. Collaboration on problem sets is not permitted.0
-
-
-- Read the [Academic Honesty](https://cs50.harvard.edu/x/2021/honesty/). While my solutions may assist you in completing the course with minimal effort, you should first try to come up with a working solution before consulting any of my suggestions. The only way to get final mastery, in my opinion, is to devote your time and energy to solving the problem sets yourself.
-
-<br/>
-
-## Repository Structure
-
-There's a folder for each problem set and inside each folder there is subfolder for the actual program since every problem set may have several different programing challenges so inside each sub folder there is a problem set readme file that explains the problem set and the source code of the solution in the implementation language.
-
-```ascii
-├── CS50/
-│   ├── pset1/
-│   │   ├── programmingChallenge1/
-│   │   | 	├── README
-│   │   | 	├── solutionFile
-│   └── pset2/'
-│   │   ├── programmingChallenge1/
-│   │   | 	├── README
-│   │   | 	├── solutionFile
-│   └── ...
-
-├── CS50 Web Development/
-│   ├── project1/
-│   │   ├── programmingChallenge1/
-│   │   | 	├── README
-│   │   | 	├── solutionFile
-│   └── project2/'
-│   │   ├── programmingChallenge1/
-│   │   | 	├── README
-│   │   | 	├── solutionFile
-│   └── ...
-```
