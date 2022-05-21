@@ -1,0 +1,3 @@
+# [Just setting up my twttr](https://cs50.harvard.edu/python/2022/psets/2/twttr/#just-setting-up-my-twttr)
+
+When texting or tweeting, it’s not uncommon to shorten words to save time or space, as by omitting vowels, much like Twitter was originally called _twttr_. In a file called `twttr.py`, implement a program that prompts the user for a `str` of text and then outputs that same text but with all vowels (A, E, I, O, and U) omitted, whether inputted in uppercase or lowercase.
