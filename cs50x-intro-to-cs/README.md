@@ -4,6 +4,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/x/2022
 <br/><br/>
 
 ## Table of Contents
+
 - [Problem Set 1: C](pset1-c)
   - [cash](pset1-c/cash)
   - [credit](pset1-c/credit)
@@ -36,6 +37,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/x/2022
 - [Final-Project](final-project)
 
 ## Problem Sets CS50x - Introduction to Computer Science
+
 | Problem Set Number | Implementation                     | Subject              |
 | ------------------ | ---------------------------------- | -------------------- |
 | PSET 1             | C                                  | Basics               |
@@ -50,5 +52,6 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/x/2022
 | Final-Project      | WIP                                | WIP                  |
 
 ## Disclaimer
+
 - If you are CS50 student you are encourged not to look at solutions to the PSETS / Projects until you completed those by yourselve. the essence of all work that you submit to this course must be your own. Collaboration on problem sets is not permitted.0
 - Read the [Academic Honesty](https://cs50.harvard.edu/x/2021/honesty/). While my solutions may assist you in completing the course with minimal effort, you should first try to come up with a working solution before consulting any of my suggestions. The only way to get final-project mastery, in my opinion, is to devote your time and energy to solving the problem sets yourself.
