@@ -11,16 +11,11 @@ This repository created for hosting my projects and problem sets solutions of Ha
 - [cs50b](https://cs50.harvard.edu/business/2017/) - Business context for computer science
 <br/><br/>
 
-## Course Description
+## Courses Description
 The intellectual enterprises of computer science and the art of programming. Those courses teaches students how to think algorithmically and solve problems efficiently using programming techniques and advanced technologies. Topics include computer science abstractions, algorithms, data structures, software engineering, web development, artificial intelligence, mobile applications development, scalability of applications, resource management, security, frameworks and libraries.
 Technologies that been covered: <br>
 `C`, `Python`, `HTML`, `CSS`, `JavaScript`, `SQL`, `React`, `Django`, `Flask`, `SASS`, `Bootstrap` <br>
 The courses problem sets and projects inspired by the arts, humanities, social sciences, and sciences.
-<br/><br/>
-
-## Disclaimer
-- If you are CS50 student you are encourged not to look at solutions to the PSETS / Projects until you completed those by yourselve. The essence of all work that you submit to this course must be your own. Collaboration on problem sets and palagrism is not permitted.
-- Read the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/). While my solutions may assist you in completing the course with minimal effort, you should first try to come up with a working solution before consulting any of my suggestions. The only way to get final mastery, in my opinion, is to devote your time and energy to solving the problem sets yourself.
 <br/><br/>
 
 ## Repository Structure
@@ -53,3 +48,7 @@ Within every course folder, there are subfolders for the actual problem sets or 
 │   │   | 	├── solutionFile
 │   └── ...
 ```
+## Disclaimer
+- If you are CS50 student you are encourged not to look at solutions to the PSETS / Projects until you completed those by yourselve. The essence of all work that you submit to this course must be your own. Collaboration on problem sets and palagrism is not permitted.
+- Read the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/). While my solutions may assist you in completing the course with minimal effort, you should first try to come up with a working solution before consulting any of my suggestions. The only way to get final mastery, in my opinion, is to devote your time and energy to solving the problem sets yourself.
+<br/><br/>
