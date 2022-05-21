@@ -4,6 +4,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/python
 <br/><br/>
 
 ## Table of Contents
+
 - [Problem Set 0: Functions](pset0-functions)
   - [einstein](pset0-functions/einstein)
   - [indoor-voice](pset0-functions/indoor-voice)
@@ -16,19 +17,31 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/python
   - [home-federal-savings-bank](pset1-conditionals/home-federal-savings-bank)
   - [math-intrepreter](pset1-conditionals/math-intrepreter)
   - [meal-time](pset1-conditionals/meal-time)
-
+- [Problem Set 2: Loops](pset2-loops)
+  - [camel-case](pset2-loops/camel-case)
+  - [coke-machine](pset2-loops/coke-machine)
+  - [nutrition-facts](pset2-loops/nutrition-facts)
+  - [twttr](pset2-loops/twttr)
+  - [vainty-plates](pset2-loops/vanity-plates)
+- [Problem Set 3: Exceptions](pset3-exceptions)
+  - [felipes-taqueria](pset3-exceptions/felipes-taqueria)
+  - [fuel-gauge](pset3-exceptions/faul-gauge)
+  - [grocery-list](pset3-exceptions/grocery-list)
+  - [outdated](pset3-exceptions/outdated)
 
 ## Problem Sets CS50p - Programming with Python
-| Project Number | Implementation                         | Subject                  |
-| -------------- | -------------------------------------- | ------------------------ |
-| PSET 0         | Python                                 | Functions                |
-| PSET 1         | Python                                 | Conditionals             |
-| Project 2      | Python                                 | WIP                      |
-| Project 3      | Python                                 | WIP                      |
-| Project 4      | Python                                 | WIP                      |
-| Project 5      | Python                                 | WIP                      |
-| Project 6      | Python                                 | WIP                      |
+
+| PSET Number | Implementation | Subject      |
+| ----------- | -------------- | ------------ |
+| PSET 0      | Python         | Functions    |
+| PSET 1      | Python         | Conditionals |
+| PSET 2      | Python         | Loops        |
+| PSET 3      | Python         | Exceptions   |
+| Project 4   | Python         | WIP          |
+| Project 5   | Python         | WIP          |
+| Project 6   | Python         | WIP          |
 
 ## Disclaimer
+
 - If you are CS50 student you are encourged not to look at solutions to the PSETS / Projects until you completed those by yourselve. the essence of all work that you submit to this course must be your own. Collaboration on problem sets is not permitted.0
 - Read the [Academic Honesty](https://cs50.harvard.edu/x/2021/honesty/). While my solutions may assist you in completing the course with minimal effort, you should first try to come up with a working solution before consulting any of my suggestions. The only way to get final-project mastery, in my opinion, is to devote your time and energy to solving the problem sets yourself.
