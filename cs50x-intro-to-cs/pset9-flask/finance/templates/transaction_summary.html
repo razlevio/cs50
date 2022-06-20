@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block title %}
+    Purchase Summary
+{% endblock %}
+
+{% block main %}
+    <h1>Transaction succeeded!</h1>
+    <br>
+    <h3>Summary</h3>
+    <br>
+    <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Symbol</th>
+              <th scope="col">Price</th>
+              <th scope="col">Total</th>
+              <th scope="col">Shares</th>
+              <th scope="col">Cash</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{ transaction_info["symbol"] }}</td>
+              <td>{{ transaction_info["stock_price"] }}</td>
+              <td>{{ transaction_info["transaction_cost"] }}</td>
+              <td>{{ transaction_info["shares"] }}</td>
+              <td>{{ transaction_info["updated_account_cash"] }}</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+{% endblock %}

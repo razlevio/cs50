@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <h1>Stocks Portfolio</h1>
+    <br>
+    <div class="table-responsive">
+        <table class="table table-striped">
+        <thead>
+            <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Symbol</th>
+            <th scope="col">Shares</th>
+            <th scope="col">Price</th>
+            <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for holding in portfolio %}
+                <tr>
+                    <td>{{ holding["name"] }}</td>
+                    <td>{{ holding["symbol"] }}</td>
+                    <td>{{ holding["shares"] }}</td>
+                    <td>{{ holding["price"] }}</td>
+                    <td>{{ holding["total"] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="border-0 fw-bold text-end" colspan="4">CASH</td>
+                <td class="border-0">{{ cash }}</td>
+            </tr>
+            <tr>
+                <td class="border-0 fw-bold text-end" colspan="4">TOTAL</td>
+                <td class="border-0">{{ total_portfolio_value }}</td>
+            </tr>
+        </tfoot>
+        </table>
+    </div>
+    <br>
+    <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
+          Add funds
+        </button>
+      </p>
+      <div class="collapse" id="collapse">
+        <div class="card card-body">
+            We are welcome you to add more funds to your fantasy stocks portfolio! HAVE FUN
+        </div>
+        <br>
+        <form action="/" method="post">
+            <div class="mb-3">
+                <select class="form-select mx-auto w-auto" id="funds" name="funds">
+                    <option disabled selected value="">Amount</option>
+                        <option value=10000>$10,000</option>
+                        <option value=20000>$20,000</option>
+                        <option value=30000>$30,000</option>
+                  </select>
+            </div>
+            <button class="btn btn-primary" type="submit">Add</button>
+        </form>
+      </div>
+{% endblock %}

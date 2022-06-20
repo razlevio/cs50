@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stock Info
+{% endblock %}
+
+{% block main %}
+<div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Symbol</th>
+          <th scope="col">Price</th>
+          <th scope="col">Market Cap</th>
+          <th scope="col">Change in USD</th>
+          <th scope="col">Change in %</th>
+          <th scope="col">52 week low</th>
+          <th scope="col">52 week high</th>
+          <th scope="col">Primary Exchange</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ stock_data["name"] }}</td>
+          <td>{{ stock_data["symbol"] }}</td>
+          <td>{{ stock_data["price"] }}</td>
+          <td>{{ stock_data["marketcap"] }}</td>
+          <td>{{ stock_data["changeusd"] }}</td>
+          <td>{{ stock_data["changepercent"] }}</td>
+          <td>{{ stock_data["52low"] }}</td>
+          <td>{{ stock_data["52high"] }}</td>
+          <td>{{ stock_data["primaryexchange"] }}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+{% endblock %}
