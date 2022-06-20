@@ -28,6 +28,28 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/python
   - [fuel-gauge](pset3-exceptions/faul-gauge)
   - [grocery-list](pset3-exceptions/grocery-list)
   - [outdated](pset3-exceptions/outdated)
+- [Problem Set 4: Libraries](pset4-libraries)
+  - [adieu](pset4-libraries/adieu/)
+  - [bitcoin-price-index](pset4-libraries/bitcoin-price-index)
+  - [emojize](pset4-libraries/emojize)
+  - [figlet](pset4-libraries/figlet)  
+  - [guessing-game](pset4-libraries/guessing-game)
+  - [litte-professor](pset4-libraries/little-professor)
+- [Problem Set 5: Unit Tests](pset5-unit-tests)
+  - [back-to-bank](pset5-unit-tests/back-to-bank)
+  - [refueling](pset5-unit-tests/refueling)
+  - [testing-my-twittr](pset5-unit-tests/testing-my-twittr)
+- [Problem Set 6: File I/O](pset6-file-io)
+  - [cs50-shirt](pset6-file-io/cs50-shirt)
+  - [line-of-code](pset6-file-io/line-of-code)
+  - [pizza-py](pset6-file-io/pizza-py)
+  - [scourgify](pset6-file-io/scourgify)
+- [Problem Set 7: Regular Expressions](pset7-regex)
+  - [numb3rs](pset7-regex/numb3rs)
+  - [watch](pset7-regex/watch)
+  - [working](pset7-regex/working)
+  - [um](pset7-regex/um)
+  - [response](pset7-regex/response)
 
 ## Problem Sets CS50p - Programming with Python
 
@@ -37,9 +59,13 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/python
 | PSET 1      | Python         | Conditionals |
 | PSET 2      | Python         | Loops        |
 | PSET 3      | Python         | Exceptions   |
-| Project 4   | Python         | WIP          |
-| Project 5   | Python         | WIP          |
-| Project 6   | Python         | WIP          |
+| PSET 4      | Python         | Libraries    |
+| PSET 5      | Python         | Unit Tests   |
+| PSET 6      | Python         | File I/O     |
+| PSET 7      | Python         | Regular Expressions    |
+| PSET 8      | Python         | FObject-Oriented Programming     |
+| PSET 9      | Python         | Et Cetera     |
+| PSET 10     | Python         | Final Project |
 
 ## Disclaimer
 
