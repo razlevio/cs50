@@ -51,9 +51,9 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/python
   - [um](pset7-regex/um)
   - [response](pset7-regex/response)
 - [Problem Set 8: Object-Oriented Programming](pset8-oop)
-  - [seasons-of-love](pset8-oop/seasons)
-  - [cookie-jar](pset8-oop/jar)
-  - [cs50-shirtificate](pset8-oop/shirtificate)
+  - [seasons-of-love](pset8-oop/seasons-of-love)
+  - [cookie-jar](pset8-oop/cookie-jar)
+  - [cs50-shirtificate](pset8-oop/cs50-shirtificate)
 
 
 ## Problem Sets CS50p - Programming with Python
