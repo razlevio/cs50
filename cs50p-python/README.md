@@ -50,6 +50,11 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/python
   - [working](pset7-regex/working)
   - [um](pset7-regex/um)
   - [response](pset7-regex/response)
+- [Problem Set 8: Object-Oriented Programming](pset8-oop)
+  - [seasons-of-love](pset8-oop/seasons)
+  - [cookie-jar](pset8-oop/jar)
+  - [cs50-shirtificate](pset8-oop/shirtificate)
+
 
 ## Problem Sets CS50p - Programming with Python
 
@@ -63,7 +68,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/python
 | PSET 5      | Python         | Unit Tests   |
 | PSET 6      | Python         | File I/O     |
 | PSET 7      | Python         | Regular Expressions    |
-| PSET 8      | Python         | FObject-Oriented Programming     |
+| PSET 8      | Python         | Object-Oriented Programming     |
 | PSET 9      | Python         | Et Cetera     |
 | PSET 10     | Python         | Final Project |
 
