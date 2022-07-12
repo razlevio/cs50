@@ -1,0 +1,96 @@
+body {
+  min-height: 100vh;
+}
+
+.flex-fill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.nav-link {
+  color: black;
+  font-size: 14px;
+}
+
+.nav {
+  margin-left: 10px;
+}
+
+.logo {
+  height: 150px;
+  width: 370px;
+}
+
+.logo-advanced {
+  height: 40px;
+}
+
+.btn-primary {
+  background-color: #d3d3d3;
+  border-color: white;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #dcdcdc;
+  border-color: white;
+  color: black;
+}
+
+.btn-primary:focus {
+  background-color: #dcdcdc;
+  border-color: white;
+  color: black;
+}
+
+.btn-primary:after {
+  background-color: #dcdcdc;
+  border-color: white;
+  color: black;
+}
+
+.text {
+  display: flex;
+  width: 580px;
+  padding: 8px;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+}
+
+.advanced-text {
+  height: 25px;
+  width: 400px;
+  border: 1px solid #dcdcdc;
+}
+
+.label {
+  font-size: 12px;
+  width: 200px;
+}
+
+.advanced-form {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.btn-advanced {
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: #1e90ff;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: red;
+}
