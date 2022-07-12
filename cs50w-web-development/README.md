@@ -4,8 +4,7 @@ This folder holds my Harvard University <a href="https://cs50.harvard.edu/web/20
 <br><br>
 
 ## Table of Contents
-- [Project 0](project0)
-  - [basics](project0/basic)
+- [Project 0 - Search](project0)
 - [Project 1](project1)
 - [Project 2](project2)
 - [Project 3](project3)
