@@ -1,0 +1,32 @@
+{% extends "auctions/layout.html" %}
+{% load static %}
+{% load my_filters %}
+{% block body %}
+    <br>
+    <h2>Watchlist</h2>
+    <br>
+    {% if num_of_auctions < 1 %}
+        <h3>Empty Watchlist</h3>
+    {% else %}
+        {% for auction in auctions %}
+        <div class="align-center">
+            <div class="card text-center mb-5" style="width: 50rem">
+                <div class="card-header">{{ auction.item.category }}</div>
+                <div class="align-center">
+                    <img src="{{auction.item.image.url}}" class="card-img-top" alt="{{auction.item.title}} image" style="width: 100%; max-width: 25rem;"/>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ auction.item.title }}</h5>
+                    {% if auction.item.num_of_bids > 0 %}
+                        <p class="card-text card-price">{{ auction.item.last_bid_price|currency }}</p>
+                    {% else %}
+                        <p class="card-text card-price">{{ auction.item.initial_price|currency }}</p>
+                    {% endif %}
+                    <a href="{% url 'auctions:auction' auction_id=auction.item.id %}" class="btn btn-dark">Auction Page</a>
+                </div>
+                <div class="card-footer text-muted">{{auction.item.created_date}}</div>
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+{% endblock %}
