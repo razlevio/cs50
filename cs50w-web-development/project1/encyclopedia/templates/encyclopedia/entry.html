@@ -1,0 +1,8 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+{% block title %} {{ title|title }} {%endblock %}
+{% block body %}
+    <a href="/{{title}}/edit/" class="btn btn-dark" role="button">Edit</a>
+    {{ entry|safe }}
+{% endblock %}

@@ -1,0 +1,56 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<!-- Web app icon -->
+<link rel="icon" type="image/png" href="{% static 'favicon.ico' %}" />
+<html lang="en">
+  <head>
+    <!-- Page title -->
+    <title>{% block title %}{% endblock %}</title>
+
+    <!-- Bootstrap and custom made stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="{% static 'encyclopedia/styles.css' %}" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="row">
+      <!-- Left menu -->
+      <div class="sidebar col-lg-2 col-md-3 container-fluid">
+        <!-- Wiki Logo -->
+        <a href="/"><img src="/static/logo.svg" href="/" /><br /><br /></a>
+
+        <!-- Search bar and the csrf_token -->
+        <form action="{% url 'encyclopedia:search' %}" method="get">
+          {% csrf_token %}
+          <input
+            class="search form-control"
+            type="text"
+            name="q"
+            placeholder="Search Pages"
+          />
+        </form>
+
+        <div>
+          <a href="{% url 'encyclopedia:index' %}">&nbspHome</a>
+        </div>
+        <div>
+          <a href="{% url 'encyclopedia:new' %}">&nbspCreate New Page</a>
+        </div>
+        <div>
+          <a href="{% url 'encyclopedia:random' %}">&nbspRandom Page</a>
+        </div>
+        {% block nav %} {% endblock %}
+      </div>
+      <div class="main col-lg-10 col-md-9 container-fluid">
+        {% block body %}{% endblock %}
+      </div>
+    </div>
+  </body>
+</html>

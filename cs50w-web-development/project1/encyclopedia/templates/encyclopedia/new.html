@@ -1,0 +1,24 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+{% block title %} New Page {%endblock%}
+{% block body %}
+<h1>Create New Page</h1>
+<hr/>
+<!-- Explains how to work with markdown -->
+<p>This page creator supports Markdown only,<a href="https://guides.github.com/features/mastering-markdown/">markdown guide</a></p>
+
+<!-- New page form -->
+<form class="form" action="{% url 'encyclopedia:new' %}" method="post">
+  {% csrf_token %}
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control w-75" id="title" name="title" rows="3"></input>
+  </div>
+  <div class="form-group">
+    <label for="md">New page content as markdown</label>
+    <textarea class="form-control w-75" rows="9" id="md" name="md" placeholder="Content in markdown"></textarea>
+  </div>
+  <button class="btn btn-dark" type="submit">Create new entry</button>
+</form>
+{% endblock %}

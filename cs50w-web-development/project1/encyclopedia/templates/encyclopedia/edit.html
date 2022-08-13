@@ -1,0 +1,25 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+{% block title %}
+    Edit
+{% endblock %}
+
+{% block body %}
+    <h1>Edit Page</h1>
+    <form method="post">
+        {% csrf_token %}
+        <!-- Form for page's title, autofilled via value -->
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" name="title" id="title" class="form-control w-75" value={{title|title}} readonly>
+        </div>
+
+        <!-- Form for page's content (textarea), autofilled with the already exists content of the page -->
+        <div class="form-group">
+            <label for="content">Update Content:</label>
+            <textarea class="form-control w-75" name="content" rows="9" id="content">{{ content }}</textarea>
+        </div>
+        <button class="btn btn-dark">Save</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block body %}
+    <h1>Search</h1>
+    <ul>
+        {% if not entries %}
+            <h3>No encyclopedia entries that related to this query</h3>
+            <a href="/">Click here to see list of entries</a>
+        {% else %}
+            {% for entry in entries %}
+                <li><a href="/{{entry}}">{{ entry }}</a></li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+{% endblock %}
