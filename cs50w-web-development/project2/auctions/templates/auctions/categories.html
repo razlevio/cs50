@@ -1,0 +1,14 @@
+{% extends "auctions/layout.html" %}
+{% load static %}
+{% load my_filters %}
+{% block body %}
+    <br>
+    <h2>Categories</h2>
+    <br>
+    <div class="list-group align-center">
+        {% for cat in categories %}
+            <a class="w-50 align-center" href="{% url 'auctions:category_auctions' category_id=cat.id %}"><button type="button" class="list-group-item list-group-item" style="width:100%;">{{ cat }}</button></a>
+            <br>
+        {% endfor %}
+    </div>
+{% endblock %}

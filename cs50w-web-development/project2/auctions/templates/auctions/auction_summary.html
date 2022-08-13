@@ -1,0 +1,15 @@
+{% extends "auctions/layout.html" %}
+{% load static %}
+{% load my_filters %}
+{% block body %}
+    {% if message %}
+        <div class="alert alert-success" role="alert">{{ message }}</div>
+    {% endif %}
+    <br>
+    <h2>Auction Summary</h2>
+    <br>
+    <div class="align-center-col">
+        <p>The price you sold your item: {{winner_bid.price|currency}}</p>
+        <p>User who bought your item: {{winner_bid.buyer.username}}</p>
+    </div>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "auctions/layout.html" %}
+{% load static %}
+{% load my_filters %}
+{% block body %}
+    <br>
+    <h2>My Bids</h2>
+    <br>
+    {% for bid in bids %}
+        <div class="align-center">
+            <div class="card text-center mb-5" style="width: 50rem">
+                <div class="card-header">{{bid.auction_id.category}}</div>
+                <div class="align-center">
+                    <img src="{{bid.auction_id.image.url}}" class="card-img-top" alt="{{bid.auction_id.title}} image" style="width: 100%; max-width: 25rem;"/>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ bid.auction_id.title }}</h5>
+                    <p class="card-text card-price">{{ bid.price|currency }}</p>
+                    {% if bid.auction_id.status %}
+                        <span class="badge-text badge badge-success">Active</span>
+                        <br><br>
+                        <a href="{% url 'auctions:auction' auction_id=bid.auction_id.id %}" class="btn btn-dark">Auction Page</a>
+                    {% else %}
+                        <span class="badge-text badge badge-danger">Closed</span>
+                        <br>
+                        {% if user_id == bid.auction_id.winner_user_id %}
+                            <span class="badge badge-pill badge-success">You WON</span>
+                            <br><br>
+                        {% else %}
+                            <span class="badge badge-pill badge-danger">You LOST</span>
+                            <br><br>
+                        {% endif %}
+                        <a href="{% url 'auctions:close_auction' auction_id=bid.auction_id.id %}" class="btn btn-dark">Auction Page</a>
+
+                    {% endif %}
+                </div>
+                <div class="card-footer text-muted">{{bid.bid_date}}</div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
