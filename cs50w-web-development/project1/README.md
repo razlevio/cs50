@@ -40,3 +40,7 @@ Complete the implementation of your Wiki encyclopedia. You must fulfill the foll
 -   **Random Page**: Clicking “Random Page” in the sidebar should take user to a random encyclopedia entry.
 -   **Markdown to HTML Conversion**: On each entry’s page, any Markdown content in the entry file should be converted to HTML before being displayed to the user. You may use the  [`python-markdown2`](https://github.com/trentm/python-markdown2)  package to perform this conversion, installable via  `pip3 install markdown2`.
     -   Challenge for those more comfortable: If you’re feeling more comfortable, try implementing the Markdown to HTML conversion without using any external libraries, supporting headings, boldface text, unordered lists, links, and paragraphs. You may find  [using regular expressions in Python](https://docs.python.org/3/howto/regex.html)  helpful.
+
+## Project Demonstration
+
+[![Project demonstration](https://img.youtube.com/vi/f7V2jlJFam4/0.jpg)](https://www.youtube.com/watch?v=f7V2jlJFam4)
